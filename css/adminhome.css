@@ -1,0 +1,70 @@
+/* adminhome.php */
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    color:white;
+    /* border: 1px solid red; */
+}
+.c-fourteen>.c-fifteen>a{
+    text-decoration: none;
+}
+.c-eighteen{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width:20%;
+    height:100vh !important;
+    /* position:fixed; */
+    background-color: cornflowerblue;
+}
+.sidebar>ul{
+    height: 100%;
+    background-color: bisque;
+    padding:10px 0px;
+    text-align: center;
+}
+.sidebar>ul>li>a{
+    display: inline-block;
+    padding: 5px;
+    transition: .3s;
+    color:goldenrod;
+    text-decoration: none;
+}
+.sidebar>ul>li>a:hover{
+    background-color: rgb(127, 255, 148);
+}
+.right{
+    width: 80%;
+    /* height: 500px; */
+    background-color: grey;
+}
+.right>h3{
+    margin: 10px;
+}
+/* addstudent.php//css written here*/
+.right>form{
+width: 50%;
+margin: 0 auto;
+text-align: center;
+border:1px ridge red;
+box-shadow: 5px 2px 15px;
+}
+.right>form>div{
+    display: flex;
+    flex-direction: column;
+    margin:3px 0px;
+}
+.right>form>div>label{
+    font-weight: 700;
+    color:rgb(5, 23, 186);
+}
+.right>form>div>input{
+    color:rgb(5, 23, 186);
+}
+::placeholder{
+    color:red;
+}
+
+
+
